@@ -1,0 +1,98 @@
+{
+	"actions": {
+		"404": {
+			"code": 404,
+			"message": "The action(s) you have requested cannot be found."
+		},
+		"GET_500": {
+			"code": 500,
+			"message": "Server failed to retrieve action."
+		},
+		"POST_500": {
+			"code": 500,
+			"message": "Server failed to post action."
+		},
+		"PUT_500": {
+			"code": 500,
+			"message": "Server failed to update action."
+		},
+		"DELETE_500": {
+			"code": 500,
+			"message": "Server failed to delete action."
+		},
+		"OVER_128": {
+			"code": 400,
+			"message:": "Description and notes have a limit of 128 characters."
+		},
+		"NO_PROJECT_ID": {
+			"code": 400,
+			"message": "Actions must have a valid project ID in order to post."
+		},
+		"MISSING_FIELD": {
+			"code": 400,
+			"message": "Actions must have both a name and description."
+		},
+		"NO_UPDATE_DATA": {
+			"code": 400,
+			"messasge": "Update failed due to lack of name, description, and completed fields."
+		},
+		"CREATED": {
+			"code": 201,
+			"message": "Action was successfully created. Congratulations!"
+		},
+		"UPDATED": {
+			"code": 200,
+			"message": "Action was successfully updated. Congratulations!"
+		},
+		"REMOVED": {
+			"code": 200,
+			"message": "Action was successfully deleted. Congratulations!"
+		}
+	},
+	"projects": {
+		"404": {
+			"code": 404,
+			"message": "The project(s) you have requested cannot be found."
+		},
+		"GET_500": {
+			"code": 500,
+			"message": "Server failed to retrieve project."
+		},
+		"POST_500": {
+			"code": 500,
+			"message": "Server failed to post project."
+		},
+		"PUT_500": {
+			"code": 500,
+			"message": "Server failed to update project."
+		},
+		"DELETE_500": {
+			"code": 500,
+			"message": "Server failed to delete project."
+		},
+		"OVER_128": {
+			"code": 400,
+			"message:": "Name and description have a limit of 128 characters."
+		},
+		"MISSING_FIELD": {
+			"code": 400,
+			"message": "Projects must have both a name and description."
+		},
+		"NO_UPDATE_DATA": {
+			"code": 400,
+			"messasge": "Update failed due to lack of description, notes, and completed fields."
+		},
+		"CREATED": {
+			"code": 201,
+			"message": "Project was successfully created. Congratulations!"
+		},
+		"UPDATED": {
+			"code": 200,
+			"message": "Project was successfully updated. Congratulations!"
+		},
+		"REMOVED": {
+			"code": 200,
+			"message": "Project was successfully deleted. Congratulations!"
+		}
+	}
+}
