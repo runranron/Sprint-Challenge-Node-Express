@@ -1,12 +1,14 @@
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const actionRouter = require('./actionRouter');
 const projectRouter = require('./projectRouter');
 
 const server = express();
 
+server.use(cors());
 server.use(morgan());
 server.use(bodyParser());
 server.use('/api/actions', actionRouter);
